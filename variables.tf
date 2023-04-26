@@ -1,17 +1,17 @@
 #Company Name
 
 #CHANGE THIS - lower case only
-variable "victim_company" {
+variable "im_a_victim" {
   type        = string
   description = "For naming purposes"
-  default     = "testpatch"
+  default     = "testtim"
 }
 
 #CHANGE THIS
 variable "owner" {
   type        = string
   description = "For Tagging and Filtering purposes"
-  default     = "Patch"
+  default     = "Bob"
 }
 
 #AWS Region
