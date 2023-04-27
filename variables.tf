@@ -4,14 +4,14 @@
 variable "victim_company" {
   type        = string
   description = "For naming purposes"
-  default     = "testpatch"
+  default     = "testtim"
 }
 
 #CHANGE THIS
 variable "owner" {
   type        = string
   description = "For Tagging and Filtering purposes"
-  default     = "Patch"
+  default     = "Bob"
 }
 
 #AWS Region
