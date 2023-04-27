@@ -4,7 +4,7 @@
 variable "victim_company" {
   type        = string
   description = "For naming purposes"
-  default     = "patchdemo"
+  default     = "testpatch"
 }
 
 #CHANGE THIS
@@ -53,4 +53,3 @@ variable "source_ip" {
   type        = string
   default = "0.0.0.0/0"
 }
-
